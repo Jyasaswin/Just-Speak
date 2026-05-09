@@ -1,2 +1,1 @@
-# Just-Speak
-Just Speak turns spoken plain English into executable code in real time. No syntax memorization, no boilerplate — describe your logic out loud and a multi-agent AI pipeline converts it into clean, compilable code across 7 languages. Built for developers who think faster than they type.
+<img width="1440" height="2246" alt="image" src="https://github.com/user-attachments/assets/825c70b6-129b-44cf-be22-20d181a79d3e" />
