@@ -1,13 +1,12 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
+"use client";
 
-app = FastAPI()
+import Editor from "@monaco-editor/react";
 
-class Command(BaseModel):
-    text: str
-
-@app.post("/process")
-def process_command(command: Command):
-    return {
-        "received": command.text
-    }
+export default function Home() {
+return ( <div className="h-screen p-6"> <Editor
+     height="90vh"
+     defaultLanguage="cpp"
+     defaultValue="// Voice2Code"
+   /> </div>
+);
+}
